@@ -1,5 +1,7 @@
 # AWS Mail Parser
 
+![AWSMailParser](https://jelius.dev/assets/AWSMailParser.png)
+
 A lightweight Go service that polls SQS Events and fetches mails from S3 Bucket, it then saves it to your Mail server running on EC2 instance.  
 
 ## Features
