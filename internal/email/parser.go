@@ -1,9 +1,9 @@
 package email
 
 import (
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"github.com/DusanKasan/parsemail"
+	"github.com/jelius-sama/logger"
 )
 
 func ExtractRecipientsFromHeaders(mail *parsemail.Email) []string {

@@ -1,9 +1,9 @@
 package maildir
 
 import (
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"fmt"
+	"github.com/jelius-sama/logger"
 	"os"
 	"os/exec"
 )

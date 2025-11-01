@@ -1,10 +1,10 @@
 package lmtp
 
 import (
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"bufio"
 	"fmt"
+	"github.com/jelius-sama/logger"
 	"net"
 	"os"
 	"strconv"

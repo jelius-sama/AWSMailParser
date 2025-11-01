@@ -1,11 +1,11 @@
 package aws
 
 import (
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"context"
 	"encoding/json"
 	"github.com/aws/aws-sdk-go/aws"
+	"github.com/jelius-sama/logger"
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/sqs"

@@ -2,9 +2,9 @@ package main
 
 import (
 	"AWSMailParser/internal/aws"
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"context"
+	"github.com/jelius-sama/logger"
 	"os/signal"
 	"syscall"
 

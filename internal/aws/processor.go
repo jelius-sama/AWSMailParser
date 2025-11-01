@@ -4,10 +4,10 @@ import (
 	"AWSMailParser/internal/email"
 	"AWSMailParser/internal/lmtp"
 	"AWSMailParser/internal/maildir"
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"bytes"
 	"fmt"
+	"github.com/jelius-sama/logger"
 	"strings"
 
 	"github.com/DusanKasan/parsemail"

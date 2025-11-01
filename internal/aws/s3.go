@@ -3,10 +3,10 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/service/s3"
 
-	"AWSMailParser/logger"
 	"AWSMailParser/vars"
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
+	"github.com/jelius-sama/logger"
 	"io"
 	"net/url"
 	"strings"
