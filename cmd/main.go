@@ -26,6 +26,7 @@ func init() {
 }
 
 func main() {
+	logger.Configure("", "", logger.BoolPtr(false))
 	ctx, cancel := signal.NotifyContext(context.Background(),
 		syscall.SIGINT, syscall.SIGTERM)
 	defer cancel()
