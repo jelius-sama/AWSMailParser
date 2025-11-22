@@ -26,7 +26,12 @@ func init() {
 }
 
 func main() {
-	logger.Configure("", "", logger.BoolPtr(false))
+	logger.Configure(logger.Cnf{
+		IsDev: logger.IsDev{
+			DirectValue: logger.BoolPtr(false),
+		},
+		UseSyslog: true,
+	})
 	ctx, cancel := signal.NotifyContext(context.Background(),
 		syscall.SIGINT, syscall.SIGTERM)
 	defer cancel()
