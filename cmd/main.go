@@ -32,6 +32,7 @@ func main() {
 		},
 		UseSyslog: true,
 	})
+
 	ctx, cancel := signal.NotifyContext(context.Background(),
 		syscall.SIGINT, syscall.SIGTERM)
 	defer cancel()
