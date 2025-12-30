@@ -13,12 +13,7 @@ import (
 
 func IsFromBank(sender string) bool {
     var knownTransactionSenders = []string{
-        "no-reply@google.com",
-        "alerts@hdfcbank.net",
-        "alerts@icicibank.com",
-        "noreply@axisbank.com",
-        "alerts@chase.com",
-        "alerts@bankofamerica.com",
+        "no-reply@famapp.in",
     }
 
     for _, s := range knownTransactionSenders {
