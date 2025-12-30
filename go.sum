@@ -4,8 +4,8 @@ github.com/aws/aws-sdk-go v1.55.8 h1:JRmEUbU52aJQZ2AjX4q4Wu7t4uZjOu71uyNmaWlUkJQ
 github.com/aws/aws-sdk-go v1.55.8/go.mod h1:ZkViS9AqA6otK+JBBNH2++sx1sgxrPKcSzPPvQkUtXk=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/jelius-sama/logger v1.4.4 h1:L54BmYwyVE5YVOpSbiu6ZenIMzbqZc73XT8K+lg/y7w=
-github.com/jelius-sama/logger v1.4.4/go.mod h1:KoOqIZzGX+t5q3qoDaiXA70Grpc1E1xixyE8T9r+i/M=
+github.com/jelius-sama/logger v1.4.5 h1:Ru3UwmlWh88yVEEp/SQfExi9i7GomHTvMwkS/niARsA=
+github.com/jelius-sama/logger v1.4.5/go.mod h1:KoOqIZzGX+t5q3qoDaiXA70Grpc1E1xixyE8T9r+i/M=
 github.com/jmespath/go-jmespath v0.4.0 h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1 h1:shLQSRRSCCPj3f2gpwzGwWFoC7ycTf1rcQZHOlsJ6N8=
